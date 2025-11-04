@@ -1,0 +1,1 @@
+The Schema Package has to be rebuilt after each schema change, so that the Typescrypt types are updated as well. 

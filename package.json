@@ -1,0 +1,13 @@
+{
+  "name": "new_specs",
+  "version": "1.0.0",
+  "description": "Machine taxonomy management system",
+  "scripts": {
+    "start": "npm run start:interface & npm run start:mcp",
+    "start:interface": "lsof -ti:3000 | xargs kill -9 2>/dev/null || true && cd interface && npm run dev",
+    "start:mcp": "pkill -f 'node.*app/dist/index.js' 2>/dev/null || true && cd app && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

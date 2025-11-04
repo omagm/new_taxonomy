@@ -1,0 +1,1210 @@
+[
+  {
+    "uid": "f52bafb2-7cc2-46ff-8bab-da2c363aa995",
+    "name": "bindery",
+    "label": {
+      "en": "Bindery",
+      "de": "Buchbinderei",
+      "es": "Encuadernación"
+    },
+    "internal_description": "Main category for all bindery and finishing equipment",
+    "position_rank": 90,
+    "created_at": "2025-10-30T14:38:58.698Z",
+    "updated_at": "2025-11-03T13:26:05.910Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "14093f9b-1a6c-4a32-bfce-9a90e01ab4a5",
+    "name": "perfect-binding",
+    "label": {
+      "en": "Perfect Binding",
+      "de": "Klebebindung",
+      "es": "Encuadernación encolada"
+    },
+    "internal_description": "Perfect binding machines for adhesive binding of books and brochures",
+    "parent_category_uid": "f52bafb2-7cc2-46ff-8bab-da2c363aa995",
+    "created_at": "2025-10-30T14:39:16.429Z",
+    "updated_at": "2025-11-03T11:02:04.761Z",
+    "position_rank": 50,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "35fd5ec2-b09c-4588-9565-4856f72dff32",
+    "name": "cutting",
+    "label": {
+      "en": "Cutting",
+      "de": "Schneiden"
+    },
+    "parent_category_uid": "6ff56d0d-110a-4bcb-96cf-538ba455d9bc",
+    "created_at": "2025-11-03T10:08:05.356Z",
+    "updated_at": "2025-11-03T14:32:03.793Z",
+    "position_rank": 70,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "8538d8d2-d3a3-457f-9453-a0b73c4bb47e",
+    "name": "folding",
+    "label": {
+      "en": "Folding",
+      "de": "Falzen"
+    },
+    "parent_category_uid": "f52bafb2-7cc2-46ff-8bab-da2c363aa995",
+    "created_at": "2025-11-03T10:08:50.964Z",
+    "updated_at": "2025-11-03T11:01:26.125Z",
+    "position_rank": 80,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "e65e1e9a-3362-4708-9152-9844e4e2f8bb",
+    "name": "saddle-stitching",
+    "label": {
+      "en": "Saddle Stitching",
+      "de": "Rückendrahtheftung"
+    },
+    "parent_category_uid": "f52bafb2-7cc2-46ff-8bab-da2c363aa995",
+    "created_at": "2025-11-03T10:08:55.092Z",
+    "updated_at": "2025-11-03T11:01:50.344Z",
+    "position_rank": 60,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "28cba18e-fb9f-4f1d-a049-9e88b5e70e39",
+    "name": "gathering-line",
+    "label": {
+      "en": "Gathering Line"
+    },
+    "parent_category_uid": "14093f9b-1a6c-4a32-bfce-9a90e01ab4a5",
+    "created_at": "2025-11-03T10:09:01.055Z",
+    "updated_at": "2025-11-03T12:22:09.948Z",
+    "position_rank": 100,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "a4f463a7-e5cc-481a-aea0-5b9eae593fa3",
+    "name": "book-block-preparation",
+    "label": {
+      "en": "Book Block Preparation",
+      "de": "Buchblockvorbereitung"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:09:10.349Z",
+    "updated_at": "2025-11-03T12:25:04.260Z",
+    "position_rank": 80,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "9893162f-290c-4243-bc0d-fd4d2dec5999",
+    "name": "end-sheet-pasting",
+    "label": {
+      "en": "End Sheet Pasting",
+      "de": "Vorsatzankleben"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:09:17.650Z",
+    "updated_at": "2025-11-03T12:24:59.801Z",
+    "position_rank": 90,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "72fc2705-9c84-42c0-a20e-ccc9bd2e46ce",
+    "name": "three-knife-trimmer",
+    "label": {
+      "en": "Three Knife Trimmer",
+      "de": "Dreiseitenschneider"
+    },
+    "parent_category_uid": "14093f9b-1a6c-4a32-bfce-9a90e01ab4a5",
+    "created_at": "2025-11-03T10:09:23.265Z",
+    "updated_at": "2025-11-03T13:47:33.230Z",
+    "position_rank": 70,
+    "alt_parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "16aaa42c-9488-474a-a675-e003c527d440",
+    "name": "case-making",
+    "label": {
+      "en": "Case Making",
+      "de": "Buchdeckenfertigung"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:09:28.617Z",
+    "updated_at": "2025-11-03T12:26:04.558Z",
+    "position_rank": 0,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "8dd4bf52-73fc-4ead-b2b6-09359c2363df",
+    "name": "casing-in",
+    "label": {
+      "en": "Casing In",
+      "de": "Einhängen"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:09:36.643Z",
+    "updated_at": "2025-11-03T12:25:21.280Z",
+    "position_rank": 40,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "3235f3a5-0409-43df-818f-8f2574868564",
+    "name": "guillotines",
+    "label": {
+      "en": "Guillotines",
+      "de": "Schneidemaschinen"
+    },
+    "parent_category_uid": "35fd5ec2-b09c-4588-9565-4856f72dff32",
+    "created_at": "2025-11-03T10:11:47.435Z",
+    "updated_at": "2025-11-03T12:19:40.968Z",
+    "position_rank": 100,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "81ca8e95-6657-45c1-b396-8fd1d32c7597",
+    "name": "lift",
+    "label": {
+      "en": "Lift",
+      "de": "Hebebühne"
+    },
+    "parent_category_uid": "35fd5ec2-b09c-4588-9565-4856f72dff32",
+    "created_at": "2025-11-03T10:11:54.549Z",
+    "updated_at": "2025-11-03T12:19:46.593Z",
+    "position_rank": 90,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "83985035-1e84-4333-9d6b-6c6c72667da7",
+    "name": "jogger",
+    "label": {
+      "en": "Jogger",
+      "de": "Rütteltisch"
+    },
+    "parent_category_uid": "35fd5ec2-b09c-4588-9565-4856f72dff32",
+    "created_at": "2025-11-03T10:12:02.420Z",
+    "updated_at": "2025-11-03T12:19:52.385Z",
+    "position_rank": 80,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "155490d6-01c5-4a6c-9035-9ef254b60937",
+    "name": "loader",
+    "label": {
+      "en": "Loader",
+      "de": "Anleger"
+    },
+    "parent_category_uid": "35fd5ec2-b09c-4588-9565-4856f72dff32",
+    "created_at": "2025-11-03T10:14:23.669Z",
+    "updated_at": "2025-11-03T12:19:56.886Z",
+    "position_rank": 70,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "bd59de01-13cd-4450-90ad-3120134dd419",
+    "name": "unloader",
+    "label": {
+      "en": "Unloader",
+      "de": "Ausleger"
+    },
+    "parent_category_uid": "35fd5ec2-b09c-4588-9565-4856f72dff32",
+    "created_at": "2025-11-03T10:14:48.144Z",
+    "updated_at": "2025-11-03T12:20:00.833Z",
+    "position_rank": 60,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "769f6212-c397-44f4-870f-d63534a26940",
+    "name": "digital-web-finishing",
+    "label": {
+      "en": "Digital Web Finishing",
+      "de": "Digitale Rollenweiterverarbeitung"
+    },
+    "parent_category_uid": "f52bafb2-7cc2-46ff-8bab-da2c363aa995",
+    "created_at": "2025-11-03T10:21:30.704Z",
+    "updated_at": "2025-11-03T11:02:11.223Z",
+    "position_rank": 40,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "b34d3d66-776b-4276-8ca3-87dc09a30a30",
+    "name": "unwinder",
+    "label": {
+      "en": "Unwinder",
+      "de": "Abwickler"
+    },
+    "parent_category_uid": "8143ba57-4969-4c74-9d16-3749e2b92691",
+    "created_at": "2025-11-03T10:21:35.759Z",
+    "updated_at": "2025-11-04T07:39:55.106Z",
+    "position_rank": 90,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "63b9796f-07cf-496d-af62-458f2a33e345",
+    "name": "web-buffer",
+    "label": {
+      "en": "Web Buffer",
+      "de": "Bahnpuffer"
+    },
+    "parent_category_uid": "769f6212-c397-44f4-870f-d63534a26940",
+    "created_at": "2025-11-03T10:21:39.527Z",
+    "updated_at": "2025-11-03T12:22:32.497Z",
+    "position_rank": 80,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "da596002-cc7f-4063-a530-4ecd901f8c93",
+    "name": "folder",
+    "label": {
+      "en": "Folder",
+      "de": "Falzmaschine"
+    },
+    "parent_category_uid": "769f6212-c397-44f4-870f-d63534a26940",
+    "created_at": "2025-11-03T10:23:59.205Z",
+    "updated_at": "2025-11-03T12:22:36.058Z",
+    "position_rank": 70,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "ff86979c-6341-4a55-9aa1-a516d67f8ae6",
+    "name": "cutter",
+    "label": {
+      "en": "Cutter",
+      "de": "Schneideeinheit"
+    },
+    "parent_category_uid": "769f6212-c397-44f4-870f-d63534a26940",
+    "created_at": "2025-11-03T10:24:02.792Z",
+    "updated_at": "2025-11-03T12:22:40.278Z",
+    "position_rank": 60,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "4966ca96-55a8-4b87-af97-ebdc31235e29",
+    "name": "stacker",
+    "label": {
+      "en": "Stacker",
+      "de": "Stapler"
+    },
+    "parent_category_uid": "769f6212-c397-44f4-870f-d63534a26940",
+    "created_at": "2025-11-03T10:24:08.763Z",
+    "updated_at": "2025-11-03T12:22:46.009Z",
+    "position_rank": 50,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "5c3898d5-cd12-46b2-881d-f80007b00804",
+    "name": "rewinder",
+    "label": {
+      "en": "Rewinder",
+      "de": "Aufwickler"
+    },
+    "parent_category_uid": "8143ba57-4969-4c74-9d16-3749e2b92691",
+    "created_at": "2025-11-03T10:24:25.110Z",
+    "updated_at": "2025-11-04T07:39:59.908Z",
+    "position_rank": 100,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "name": "hard-cover-book-production",
+    "label": {
+      "en": "Hard Cover Book Production",
+      "de": "Hardcover-Buchproduktion"
+    },
+    "parent_category_uid": "f52bafb2-7cc2-46ff-8bab-da2c363aa995",
+    "created_at": "2025-11-03T10:25:15.990Z",
+    "updated_at": "2025-11-03T11:02:07.770Z",
+    "position_rank": 40,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "186bd6eb-1124-4a35-8cbd-da545cfd4d9c",
+    "name": "pressing-and-joint-forming",
+    "label": {
+      "en": "Pressing and Joint Forming",
+      "de": "Pressen und Gelenken"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:25:46.096Z",
+    "updated_at": "2025-11-03T12:25:27.293Z",
+    "position_rank": 30,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "0f5c7c41-7f6c-4f00-ba80-a982965ef009",
+    "name": "book-loader",
+    "label": {
+      "en": "Book Loader",
+      "de": "Buchanleger"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:36:48.633Z",
+    "updated_at": "2025-11-03T12:25:08.566Z",
+    "position_rank": 70,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "5d4c6038-69be-417f-bc19-75e4c6e555be",
+    "name": "ribbon-inserter",
+    "label": {
+      "en": "Ribbon Inserter",
+      "de": "Zeichenbandeinleger"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:36:52.367Z",
+    "updated_at": "2025-11-03T12:25:12.620Z",
+    "position_rank": 60,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "298a83da-0ebe-49ad-bcc2-9e38c6dc18e5",
+    "name": "pre-heater",
+    "label": {
+      "en": "Pre Heater",
+      "de": "Vorwärmer"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:36:56.767Z",
+    "updated_at": "2025-11-03T12:25:17.567Z",
+    "position_rank": 50,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "c80eb407-506f-4faf-aa81-2c90b13082b3",
+    "name": "book-stacker",
+    "label": {
+      "en": "Book Stacker",
+      "de": "Buchstapler"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:37:01.703Z",
+    "updated_at": "2025-11-03T12:25:35.868Z",
+    "position_rank": 10,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "6184ea10-df75-48d6-a465-8a1c478ca224",
+    "name": "jacketing-machine",
+    "label": {
+      "en": "Jacketing Machine",
+      "de": "Schutzumschlagmaschine"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:37:06.319Z",
+    "updated_at": "2025-11-03T12:25:31.693Z",
+    "position_rank": 20,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "fe8f8080-afeb-44b7-b0d2-6e6a764f5120",
+    "name": "nipping",
+    "label": {
+      "en": "Nipping",
+      "de": "Abpressen"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:39:21.528Z",
+    "updated_at": "2025-11-03T12:24:56.232Z",
+    "position_rank": 100,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "f327551e-cca0-449e-8009-4f29b5bf1bfb",
+    "name": "sewing-standalone",
+    "label": {
+      "en": "Sewing (standalone)"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:42:00.785Z",
+    "updated_at": "2025-11-03T12:26:27.960Z",
+    "position_rank": 120,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "dab1d589-e9d0-456c-9164-a022264ae088",
+    "name": "gathering-and-sewing-line",
+    "label": {
+      "en": "Gathering and Sewing Line",
+      "de": "Zusammentrag- und Fadenheftlinie"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "created_at": "2025-11-03T10:42:14.376Z",
+    "updated_at": "2025-11-03T12:24:51.284Z",
+    "position_rank": 110,
+    "isMetaCategory": false
+  },
+  {
+    "uid": "889f8f38-74e6-4441-8a50-7319a19a5c95",
+    "name": "pocket-folder",
+    "label": {
+      "en": "Pocket Folder"
+    },
+    "parent_category_uid": "8a79cd60-5e4c-402e-9620-62595f00f93a",
+    "position_rank": 100,
+    "created_at": "2025-11-03T12:08:46.393Z",
+    "updated_at": "2025-11-03T15:13:34.535Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "087e3335-98fc-4f91-b1fb-266518aa95b9",
+    "name": "combination-folder",
+    "label": {
+      "en": "Combination Folder"
+    },
+    "parent_category_uid": "8a79cd60-5e4c-402e-9620-62595f00f93a",
+    "position_rank": 90,
+    "created_at": "2025-11-03T12:08:49.495Z",
+    "updated_at": "2025-11-03T15:13:40.039Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "d028c529-3f5d-4c0f-bb90-81ea6360d950",
+    "name": "delivery",
+    "label": {
+      "en": "Delivery"
+    },
+    "parent_category_uid": "8538d8d2-d3a3-457f-9453-a0b73c4bb47e",
+    "position_rank": 80,
+    "created_at": "2025-11-03T12:08:52.979Z",
+    "updated_at": "2025-11-03T12:21:29.227Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "70847739-7fb3-47dd-8678-da43ef74b44f",
+    "name": "saddle-stitching-line",
+    "label": {
+      "en": "Saddle Stitching Line"
+    },
+    "parent_category_uid": "e65e1e9a-3362-4708-9152-9844e4e2f8bb",
+    "position_rank": 100,
+    "created_at": "2025-11-03T12:13:27.320Z",
+    "updated_at": "2025-11-03T12:21:33.832Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "c09299cb-44d4-45b3-8582-9496c133db74",
+    "name": "stacker",
+    "label": {
+      "en": "Stacker"
+    },
+    "parent_category_uid": "e65e1e9a-3362-4708-9152-9844e4e2f8bb",
+    "position_rank": 80,
+    "created_at": "2025-11-03T12:13:30.584Z",
+    "updated_at": "2025-11-03T12:21:42.939Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "583af276-6532-40ac-8663-628d5355ade1",
+    "name": "trimmer",
+    "label": {
+      "en": "Trimmer"
+    },
+    "parent_category_uid": "e65e1e9a-3362-4708-9152-9844e4e2f8bb",
+    "position_rank": 90,
+    "created_at": "2025-11-03T12:13:34.011Z",
+    "updated_at": "2025-11-03T12:21:38.491Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "9b98a6e2-e7bc-41ab-8d9b-32c6d813286f",
+    "name": "conventional-perfect-binder",
+    "label": {
+      "en": "Conventional Perfect Binder"
+    },
+    "parent_category_uid": "14093f9b-1a6c-4a32-bfce-9a90e01ab4a5",
+    "position_rank": 90,
+    "created_at": "2025-11-03T12:15:06.473Z",
+    "updated_at": "2025-11-03T12:22:14.981Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "ca1e0ace-26b8-42ef-8134-26caec46f8e1",
+    "name": "digital-perfect-binder",
+    "label": {
+      "en": "Digital Perfect Binder"
+    },
+    "parent_category_uid": "14093f9b-1a6c-4a32-bfce-9a90e01ab4a5",
+    "position_rank": 80,
+    "created_at": "2025-11-03T12:15:09.885Z",
+    "updated_at": "2025-11-03T12:22:20.041Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "d7dcee87-4692-4f4b-bcbf-fc975d865563",
+    "name": "case-finishing",
+    "label": {
+      "en": "Case Finishing"
+    },
+    "parent_category_uid": "e7a209ad-c5f5-4ed7-8753-a1f5497e5188",
+    "position_rank": -10,
+    "created_at": "2025-11-03T12:26:12.856Z",
+    "updated_at": "2025-11-03T12:26:12.856Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "37ecf406-2923-4ceb-9dd0-cadf95bab0a1",
+    "name": "book-block-production-line",
+    "label": {
+      "en": "Book Block Production Line"
+    },
+    "parent_category_uid": "769f6212-c397-44f4-870f-d63534a26940",
+    "position_rank": 110,
+    "created_at": "2025-11-03T12:28:19.831Z",
+    "updated_at": "2025-11-03T12:28:19.831Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "1972e900-f5c2-432e-b824-428137f97a80",
+    "name": "stacker",
+    "label": {
+      "en": "Stacker"
+    },
+    "parent_category_uid": "14093f9b-1a6c-4a32-bfce-9a90e01ab4a5",
+    "position_rank": 60,
+    "created_at": "2025-11-03T12:40:52.967Z",
+    "updated_at": "2025-11-03T12:40:52.967Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "0a35e68c-5231-4373-abb8-16bdfa688980",
+    "name": "manual-stitcher",
+    "label": {
+      "en": "Manual Stitcher"
+    },
+    "parent_category_uid": "e65e1e9a-3362-4708-9152-9844e4e2f8bb",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:40:57.919Z",
+    "updated_at": "2025-11-03T12:40:57.919Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "37ffd7a7-53fe-45da-be5b-a9d03212b8da",
+    "name": "front-cut-trimmer",
+    "label": {
+      "en": "Front Cut Trimmer"
+    },
+    "parent_category_uid": "14093f9b-1a6c-4a32-bfce-9a90e01ab4a5",
+    "position_rank": 75,
+    "created_at": "2025-11-03T12:42:32.258Z",
+    "updated_at": "2025-11-03T12:42:32.258Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "name": "tbd",
+    "label": {
+      "en": "TBD"
+    },
+    "position_rank": 70,
+    "created_at": "2025-11-03T12:45:36.696Z",
+    "updated_at": "2025-11-03T13:26:14.576Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "f28eea62-d098-40ba-9c13-f10cc28c7721",
+    "name": "shrink-wrapping-machines",
+    "label": {
+      "en": "Shrink Wrapping Machines"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:45:40.552Z",
+    "updated_at": "2025-11-03T12:45:40.552Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "25a427be-1e28-4c9f-929e-650d94a39533",
+    "name": "palletizers",
+    "label": {
+      "en": "Palletizers"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:45:43.651Z",
+    "updated_at": "2025-11-03T12:45:43.651Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "b18b9579-eb35-4d9a-b7e2-d71bd062c2c7",
+    "name": "robots",
+    "label": {
+      "en": "Robots"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:45:47.151Z",
+    "updated_at": "2025-11-03T12:45:47.151Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "e3f83d88-1f4c-4358-ad11-38000f9d7d3b",
+    "name": "mailing",
+    "label": {
+      "en": "Mailing"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:45:50.385Z",
+    "updated_at": "2025-11-03T12:45:50.385Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "342e8347-9a7f-4aca-bc77-5929c2cc8d59",
+    "name": "banding",
+    "label": {
+      "en": "Banding"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:45:54.247Z",
+    "updated_at": "2025-11-03T12:45:54.247Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "ddc42946-5afa-4fe9-b450-e0b0f53d2003",
+    "name": "paper-drill",
+    "label": {
+      "en": "Paper Drill"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:45:57.234Z",
+    "updated_at": "2025-11-03T12:45:57.234Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "1fb28c8a-fc06-49a8-9cf1-32e00ee2d85c",
+    "name": "calendar-production",
+    "label": {
+      "en": "Calendar Production"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:46:01.035Z",
+    "updated_at": "2025-11-03T12:46:01.035Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "ef96e188-3e52-4e71-a210-629bdd863b17",
+    "name": "punching",
+    "label": {
+      "en": "Punching"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:46:04.099Z",
+    "updated_at": "2025-11-03T12:46:04.099Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "3f06cfbb-4ba4-4bb5-b2a9-8ed7682b3447",
+    "name": "corner-cutting",
+    "label": {
+      "en": "Corner Cutting"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:46:07.561Z",
+    "updated_at": "2025-11-03T12:46:07.561Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "1be2e50b-7f69-4324-b57b-3598f4671c73",
+    "name": "wire-binding",
+    "label": {
+      "en": "Wire Binding"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T12:46:11.385Z",
+    "updated_at": "2025-11-03T12:46:11.385Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "6ff56d0d-110a-4bcb-96cf-538ba455d9bc",
+    "name": "postpress-converting",
+    "label": {
+      "en": "Postpress Converting",
+      "de": "Postpress Converting",
+      "es": "Postpress Converting"
+    },
+    "position_rank": 80,
+    "created_at": "2025-11-03T13:03:44.753Z",
+    "updated_at": "2025-11-03T13:51:24.208Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "bdef0668-7176-458a-8ae4-ad9d1a53f8f4",
+    "name": "flatbed-die-cutting",
+    "label": {
+      "en": "Flatbed Die Cutting",
+      "de": "Flachbett-Stanzmaschinen",
+      "es": "Troquelado Plano"
+    },
+    "parent_category_uid": "4d25e61e-4811-473d-9133-bc32a6d1f72e",
+    "position_rank": 60,
+    "created_at": "2025-11-03T13:08:06.470Z",
+    "updated_at": "2025-11-04T07:41:30.227Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "3b436403-248c-458c-ac19-deb9be06790e",
+    "name": "folding-gluing",
+    "label": {
+      "en": "Folding-Gluing"
+    },
+    "parent_category_uid": "6ff56d0d-110a-4bcb-96cf-538ba455d9bc",
+    "position_rank": 30,
+    "created_at": "2025-11-03T13:08:15.074Z",
+    "updated_at": "2025-11-03T14:32:24.571Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "1f3d8199-8087-4e48-8797-7b0f8a21e48f",
+    "name": "folder-gluer",
+    "label": {
+      "en": "Folder Gluer"
+    },
+    "parent_category_uid": "3b436403-248c-458c-ac19-deb9be06790e",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:08:37.691Z",
+    "updated_at": "2025-11-03T13:08:37.691Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "00e0a90c-96c3-456b-ae54-206e9ba1f6b6",
+    "name": "feeder",
+    "label": {
+      "en": "Feeder"
+    },
+    "parent_category_uid": "3b436403-248c-458c-ac19-deb9be06790e",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:09:08.273Z",
+    "updated_at": "2025-11-03T13:09:08.273Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "f380d993-21b1-4f54-a113-906b87d09a0d",
+    "name": "delivery",
+    "label": {
+      "en": "Delivery"
+    },
+    "parent_category_uid": "3b436403-248c-458c-ac19-deb9be06790e",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:09:22.957Z",
+    "updated_at": "2025-11-03T13:09:22.957Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "43c53d69-fd77-4d10-937a-dce2ddc3423a",
+    "name": "window-patching",
+    "label": {
+      "en": "Window Patching"
+    },
+    "parent_category_uid": "6ff56d0d-110a-4bcb-96cf-538ba455d9bc",
+    "position_rank": 20,
+    "created_at": "2025-11-03T13:10:06.836Z",
+    "updated_at": "2025-11-03T14:32:30.050Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "84ca0401-c9bd-418c-806a-7ac6f6affcd9",
+    "name": "tray-forming-carton-erecting",
+    "label": {
+      "en": "Tray Forming / Carton Erecting"
+    },
+    "parent_category_uid": "6ff56d0d-110a-4bcb-96cf-538ba455d9bc",
+    "position_rank": 10,
+    "created_at": "2025-11-03T13:10:26.746Z",
+    "updated_at": "2025-11-03T14:32:35.527Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "b469d3a9-f375-49eb-9557-28f5b0b3f9ef",
+    "name": "laminating-coating",
+    "label": {
+      "en": "Laminating & Coating"
+    },
+    "parent_category_uid": "6ff56d0d-110a-4bcb-96cf-538ba455d9bc",
+    "position_rank": 40,
+    "created_at": "2025-11-03T13:10:42.974Z",
+    "updated_at": "2025-11-03T14:32:20.444Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "7a3526d8-725e-489f-afc2-e0a90af4ebeb",
+    "name": "label-punching",
+    "label": {
+      "en": "Label Punching"
+    },
+    "parent_category_uid": "1384bd59-48db-4a23-9ded-c4491ab3d9b4",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:10:57.673Z",
+    "updated_at": "2025-11-03T13:10:57.673Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "b1d1f213-f368-44ca-a234-e86efa4b9234",
+    "name": "printing",
+    "label": {
+      "en": "Printing"
+    },
+    "position_rank": 100,
+    "created_at": "2025-11-03T13:12:28.482Z",
+    "updated_at": "2025-11-03T13:26:00.808Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "b0b1bc9e-886e-458a-bc2d-4807df542eca",
+    "name": "pre-press",
+    "label": {
+      "en": "Pre-Press"
+    },
+    "parent_category_uid": "b1d1f213-f368-44ca-a234-e86efa4b9234",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:12:32.677Z",
+    "updated_at": "2025-11-03T13:12:32.677Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "d9223d46-6bcc-4376-8647-b8b683395089",
+    "name": "sheet-fed-offset",
+    "label": {
+      "en": "Sheet-fed Offset"
+    },
+    "parent_category_uid": "b1d1f213-f368-44ca-a234-e86efa4b9234",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:12:36.484Z",
+    "updated_at": "2025-11-03T13:12:36.484Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "7c3a3828-8a94-4a67-ac7f-8b747208b2fe",
+    "name": "web-offset",
+    "label": {
+      "en": "Web offset"
+    },
+    "parent_category_uid": "b1d1f213-f368-44ca-a234-e86efa4b9234",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:12:41.353Z",
+    "updated_at": "2025-11-03T13:12:41.353Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "c0ba9b53-542f-43b8-b5bb-b527ea44c4a4",
+    "name": "heatset",
+    "label": {
+      "en": "Heatset"
+    },
+    "parent_category_uid": "7c3a3828-8a94-4a67-ac7f-8b747208b2fe",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:12:47.043Z",
+    "updated_at": "2025-11-03T13:12:47.043Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "a5f79b65-6ee9-4bb6-9359-1ff29c9c3e78",
+    "name": "coldset",
+    "label": {
+      "en": "Coldset"
+    },
+    "parent_category_uid": "7c3a3828-8a94-4a67-ac7f-8b747208b2fe",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:12:50.586Z",
+    "updated_at": "2025-11-03T13:12:50.586Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "c53139cd-5c01-4161-b545-b800b36db960",
+    "name": "narrow-web-offset",
+    "label": {
+      "en": "Narrow Web Offset"
+    },
+    "parent_category_uid": "b1d1f213-f368-44ca-a234-e86efa4b9234",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:12:54.338Z",
+    "updated_at": "2025-11-03T14:50:19.913Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "3d674a06-ef04-4bf0-a434-fe565abf2951",
+    "name": "digital-sheet-printing",
+    "label": {
+      "en": "Digital Sheet Printing"
+    },
+    "parent_category_uid": "72db1585-b11d-4dcb-92e6-1c704c88c5ed",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:12:58.283Z",
+    "updated_at": "2025-11-03T13:28:12.848Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "470aa6e2-f154-4929-a6ea-b93c7f3726db",
+    "name": "digital-web-printing",
+    "label": {
+      "en": "Digital Web Printing"
+    },
+    "parent_category_uid": "72db1585-b11d-4dcb-92e6-1c704c88c5ed",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:13:02.019Z",
+    "updated_at": "2025-11-03T13:26:43.345Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "72db1585-b11d-4dcb-92e6-1c704c88c5ed",
+    "name": "digital-printing",
+    "label": {
+      "en": "Digital Printing"
+    },
+    "parent_category_uid": "b1d1f213-f368-44ca-a234-e86efa4b9234",
+    "position_rank": 0,
+    "created_at": "2025-11-03T13:26:35.669Z",
+    "updated_at": "2025-11-03T13:26:35.669Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "c81f608a-d001-4eee-a98a-30e2fe59cb34",
+    "name": "50x35-b3",
+    "label": {
+      "en": "50 x 35 cm / 20\" (B3)",
+      "de": "50 x 35 cm / 20\" (B3)",
+      "es": "50 x 35 cm / 20\" (B3)"
+    },
+    "parent_category_uid": "d9223d46-6bcc-4376-8647-b8b683395089",
+    "position_rank": 40,
+    "created_at": "2025-11-03T14:11:23.165Z",
+    "updated_at": "2025-11-03T14:11:23.165Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "48f86d1a-bd5b-40e7-a248-74213573d8f1",
+    "name": "70x50-b2",
+    "label": {
+      "en": "70 x 50 cm / 29\" (B2)",
+      "de": "70 x 50 cm / 29\" (B2)",
+      "es": "70 x 50 cm / 29\" (B2)"
+    },
+    "parent_category_uid": "d9223d46-6bcc-4376-8647-b8b683395089",
+    "position_rank": 30,
+    "created_at": "2025-11-03T14:11:27.917Z",
+    "updated_at": "2025-11-03T14:11:27.917Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "8201e50b-0c01-4903-ae03-0ff7438cde41",
+    "name": "100x70-b1",
+    "label": {
+      "en": "100 x 70 cm / 40\" (B1)",
+      "de": "100 x 70 cm / 40\" (B1)",
+      "es": "100 x 70 cm / 40\" (B1)"
+    },
+    "parent_category_uid": "d9223d46-6bcc-4376-8647-b8b683395089",
+    "position_rank": 20,
+    "created_at": "2025-11-03T14:11:35.417Z",
+    "updated_at": "2025-11-03T14:11:35.417Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "a0433b65-cc61-49be-b7af-106523c347b8",
+    "name": "large-format-vlf",
+    "label": {
+      "en": "Large Format & VLF",
+      "de": "Großformat & VLF",
+      "es": "Gran Formato & VLF"
+    },
+    "parent_category_uid": "d9223d46-6bcc-4376-8647-b8b683395089",
+    "position_rank": 10,
+    "created_at": "2025-11-03T14:11:44.249Z",
+    "updated_at": "2025-11-03T14:11:44.249Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "62e2eed9-eada-43dc-8d85-4301a0394ef6",
+    "name": "140x100-b0",
+    "label": {
+      "en": "140 x 100 cm / 55\" (B0)",
+      "de": "140 x 100 cm / 55\" (B0)",
+      "es": "140 x 100 cm / 55\" (B0)"
+    },
+    "parent_category_uid": "d9223d46-6bcc-4376-8647-b8b683395089",
+    "position_rank": 15,
+    "created_at": "2025-11-03T14:19:34.885Z",
+    "updated_at": "2025-11-03T14:19:34.885Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "3b5af65f-889c-422f-89e7-953d5f745936",
+    "name": "ctp-platesetter",
+    "label": {
+      "en": "CTP Platesetter",
+      "de": "CTP-Belichter",
+      "es": "CTP Platesetter"
+    },
+    "parent_category_uid": "b0b1bc9e-886e-458a-bc2d-4807df542eca",
+    "position_rank": 40,
+    "created_at": "2025-11-03T14:23:34.251Z",
+    "updated_at": "2025-11-03T14:23:34.251Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "e3d3daf0-1474-45a9-a07c-56632ca54ea2",
+    "name": "plate-logistic-systems",
+    "label": {
+      "en": "Plate Logistic Systems",
+      "de": "Plattenlogistiksysteme",
+      "es": "Sistemas Logísticos de Placas"
+    },
+    "parent_category_uid": "b0b1bc9e-886e-458a-bc2d-4807df542eca",
+    "position_rank": 30,
+    "created_at": "2025-11-03T14:23:40.983Z",
+    "updated_at": "2025-11-03T14:23:40.983Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "1562c5b2-4a4e-4733-baf0-30fb9cd94da6",
+    "name": "plate-punch",
+    "label": {
+      "en": "Plate Punch",
+      "de": "Plattenstanze",
+      "es": "Perforadora de Placas"
+    },
+    "parent_category_uid": "b0b1bc9e-886e-458a-bc2d-4807df542eca",
+    "position_rank": 20,
+    "created_at": "2025-11-03T14:23:46.251Z",
+    "updated_at": "2025-11-03T14:23:46.251Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "32e14bcb-709f-4e19-abec-ba60d6536696",
+    "name": "plate-bender",
+    "label": {
+      "en": "Plate Bender",
+      "de": "Plattenbiegegerät",
+      "es": "Dobladora de Placas"
+    },
+    "parent_category_uid": "b0b1bc9e-886e-458a-bc2d-4807df542eca",
+    "position_rank": 10,
+    "created_at": "2025-11-03T14:23:52.716Z",
+    "updated_at": "2025-11-03T14:23:52.716Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "57403bb7-96c2-4cec-894c-c99c32615ef4",
+    "name": "70x50-b2-die-cutting",
+    "label": {
+      "en": "70 x 50 cm / 29\" (B2)",
+      "de": "70 x 50 cm / 29\" (B2)",
+      "es": "70 x 50 cm / 29\" (B2)"
+    },
+    "parent_category_uid": "bdef0668-7176-458a-8ae4-ad9d1a53f8f4",
+    "position_rank": 40,
+    "created_at": "2025-11-03T14:28:54.082Z",
+    "updated_at": "2025-11-03T14:30:53.931Z",
+    "alt_parent_category_uid": "58a78169-df4a-43c1-888c-622fd5dcea2d",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "bb08a034-570c-4e94-b6dd-421626f0752c",
+    "name": "100x70-b1-die-cutting",
+    "label": {
+      "en": "100 x 70 cm / 40\" (B1)",
+      "de": "100 x 70 cm / 40\" (B1)",
+      "es": "100 x 70 cm / 40\" (B1)"
+    },
+    "parent_category_uid": "bdef0668-7176-458a-8ae4-ad9d1a53f8f4",
+    "position_rank": 30,
+    "created_at": "2025-11-03T14:29:00.851Z",
+    "updated_at": "2025-11-03T14:30:59.823Z",
+    "alt_parent_category_uid": "58a78169-df4a-43c1-888c-622fd5dcea2d",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "b59f3395-00a0-4a6b-9b20-25fb00a31f42",
+    "name": "140x100-b0-die-cutting",
+    "label": {
+      "en": "140 x 100 cm / 55\" (B0)",
+      "de": "140 x 100 cm / 55\" (B0)",
+      "es": "140 x 100 cm / 55\" (B0)"
+    },
+    "parent_category_uid": "bdef0668-7176-458a-8ae4-ad9d1a53f8f4",
+    "position_rank": 20,
+    "created_at": "2025-11-03T14:29:10.089Z",
+    "updated_at": "2025-11-03T14:31:04.576Z",
+    "alt_parent_category_uid": "58a78169-df4a-43c1-888c-622fd5dcea2d",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "a88ce29d-1f18-4560-bc4e-5a13677bfa83",
+    "name": "large-format-die-cutting",
+    "label": {
+      "en": "Large Format",
+      "de": "Großformat",
+      "es": "Gran Formato"
+    },
+    "parent_category_uid": "bdef0668-7176-458a-8ae4-ad9d1a53f8f4",
+    "position_rank": 10,
+    "created_at": "2025-11-03T14:29:16.273Z",
+    "updated_at": "2025-11-03T14:31:08.843Z",
+    "alt_parent_category_uid": "58a78169-df4a-43c1-888c-622fd5dcea2d",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "58a78169-df4a-43c1-888c-622fd5dcea2d",
+    "name": "flatbed-hotfoil-stamping",
+    "label": {
+      "en": "Flatbed Hotfoil Stamping",
+      "de": "Flachbett-Heißfolienprägung",
+      "es": "Estampado en Caliente Plano"
+    },
+    "parent_category_uid": "4d25e61e-4811-473d-9133-bc32a6d1f72e",
+    "position_rank": 50,
+    "created_at": "2025-11-03T14:30:28.696Z",
+    "updated_at": "2025-11-04T07:41:34.666Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "21abca61-9864-4a06-a297-f6c40b6f3641",
+    "name": "label-printing",
+    "label": {
+      "en": "Label Printing (Flexo)"
+    },
+    "parent_category_uid": "b1d1f213-f368-44ca-a234-e86efa4b9234",
+    "position_rank": 0,
+    "created_at": "2025-11-03T14:53:18.410Z",
+    "updated_at": "2025-11-03T14:54:45.690Z",
+    "isMetaCategory": false
+  },
+  {
+    "uid": "8a79cd60-5e4c-402e-9620-62595f00f93a",
+    "name": "folding-machines",
+    "label": {
+      "en": "Folding Machines"
+    },
+    "parent_category_uid": "8538d8d2-d3a3-457f-9453-a0b73c4bb47e",
+    "position_rank": 110,
+    "isMetaCategory": true,
+    "created_at": "2025-11-03T15:09:07.184Z",
+    "updated_at": "2025-11-03T15:09:07.184Z"
+  },
+  {
+    "uid": "8143ba57-4969-4c74-9d16-3749e2b92691",
+    "name": "unwinder-rewinder",
+    "label": {
+      "en": "Unwinder & Rewinder"
+    },
+    "parent_category_uid": "769f6212-c397-44f4-870f-d63534a26940",
+    "position_rank": 95,
+    "isMetaCategory": true,
+    "created_at": "2025-11-04T07:39:50.412Z",
+    "updated_at": "2025-11-04T07:39:50.412Z"
+  },
+  {
+    "uid": "4d25e61e-4811-473d-9133-bc32a6d1f72e",
+    "name": "flatbed-processing",
+    "label": {
+      "en": "Flatbed Processing"
+    },
+    "parent_category_uid": "6ff56d0d-110a-4bcb-96cf-538ba455d9bc",
+    "position_rank": 55,
+    "isMetaCategory": true,
+    "created_at": "2025-11-04T07:41:25.782Z",
+    "updated_at": "2025-11-04T07:41:25.782Z"
+  }
+]

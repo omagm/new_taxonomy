@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxonomy Inspector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Taxonomy Inspector</h1>
+            <div class="controls">
+                <div class="control-group">
+                    <label for="depthSelector">Expand to depth:</label>
+                    <select id="depthSelector">
+                        <option value="0">None (Collapse All)</option>
+                        <option value="1">Level 1</option>
+                        <option value="2">Level 2</option>
+                        <option value="3" selected>Level 3</option>
+                        <option value="4">Level 4</option>
+                        <option value="5">Level 5</option>
+                        <option value="999">All Levels</option>
+                    </select>
+                    <button id="applyDepth">Apply</button>
+                </div>
+                <div class="control-group">
+                    <button id="expandAll">Expand All</button>
+                    <button id="collapseAll">Collapse All</button>
+                    <button id="reload">Reload Data</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="tree-container">
+                <div id="loading">Loading taxonomy data...</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="inspector.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "defaultStates": {
+    "category": "open",
+    "specGroup": "open",
+    "specification": "open"
+  },
+  "labels": {
+    "category": "Category",
+    "specGroup": "Specification Group",
+    "specification": "Specification"
+  }
+}

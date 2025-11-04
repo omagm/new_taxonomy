@@ -1,0 +1,14 @@
+[
+  {
+    "uid": "635263d8-d612-4efa-92af-15ac8d01998a",
+    "name": "feeder",
+    "category_uid": "8a79cd60-5e4c-402e-9620-62595f00f93a",
+    "label": {
+      "en": "Feeder"
+    },
+    "type": "Equipment",
+    "position_rank": 100,
+    "created_at": "2025-11-03T15:15:08.342Z",
+    "updated_at": "2025-11-03T15:15:08.342Z"
+  }
+]

@@ -1,0 +1,1 @@
+This is an MCP server that manages the data in the ```/data``` directory according to the schema definitions in the ```/schemas``` directory.

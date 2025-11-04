@@ -1,0 +1,1 @@
+This small web app renders a collapsible category tree as a HTML page. It is based on the data in ```../data``` and the schema definitions in ```../schemas```.
