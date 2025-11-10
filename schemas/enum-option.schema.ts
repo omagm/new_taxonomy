@@ -9,6 +9,7 @@ export const EnumOptionSchema = z.object({
   internal_description: z.string().optional(),
   description: MultilingualSchema.optional(),
   manufacturers_using: z.array(UIDSchema).default([]), // Empty means all can use it
+  highlighted: z.boolean().default(false),
   created_at: z.string().datetime(),
   updated_at: z.string().datetime(),
 });
@@ -20,6 +21,7 @@ export const CreateEnumOptionInputSchema = z.object({
   internal_description: z.string().optional(),
   description: MultilingualSchema.optional(),
   manufacturers_using: z.array(UIDSchema).default([]),
+  highlighted: z.boolean().default(false),
 });
 
 export const UpdateEnumOptionInputSchema = z.object({
@@ -30,6 +32,7 @@ export const UpdateEnumOptionInputSchema = z.object({
   internal_description: z.string().optional(),
   description: MultilingualSchema.optional(),
   manufacturers_using: z.array(UIDSchema).optional(),
+  highlighted: z.boolean().optional(),
 });
 
 export type EnumOption = z.infer<typeof EnumOptionSchema>;

@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "uid": "14386ba7-0664-412b-93b5-d41822346f97",
+    "name": "feeding-type",
+    "specification_group_uid": "635263d8-d612-4efa-92af-15ac8d01998a",
+    "label": {
+      "en": "Feeding Type",
+      "de": "",
+      "es": ""
+    },
+    "required": true,
+    "highlighted": true,
+    "type": "Enum",
+    "type_options": {
+      "allow_multiple": false,
+      "hide_name": true
+    },
+    "position_rank": 0,
+    "created_at": "2025-11-10T11:17:59.074Z",
+    "updated_at": "2025-11-10T13:19:03.127Z",
+    "internal_description": "What kind of feeder is it? Pile (Stabel), Pallet (Palette), Round Pile?"
+  },
+  {
+    "uid": "55a8f2f4-0991-4b5f-a453-1230ecc483a8",
+    "name": "name",
+    "specification_group_uid": "635263d8-d612-4efa-92af-15ac8d01998a",
+    "label": {
+      "en": "Name"
+    },
+    "required": false,
+    "highlighted": false,
+    "type": "Text",
+    "type_options": {},
+    "position_rank": 0,
+    "created_at": "2025-11-10T11:18:51.049Z",
+    "updated_at": "2025-11-10T11:18:51.049Z"
+  },
+  {
+    "uid": "697bb761-0df2-49cf-a69f-ec76c3481f2f",
+    "name": "year",
+    "specification_group_uid": "635263d8-d612-4efa-92af-15ac8d01998a",
+    "label": {
+      "en": "Year"
+    },
+    "required": false,
+    "highlighted": false,
+    "type": "Numerical",
+    "type_options": {},
+    "position_rank": 0,
+    "created_at": "2025-11-10T11:19:02.207Z",
+    "updated_at": "2025-11-10T11:19:02.207Z"
+  },
+  {
+    "uid": "8d17899f-27e3-4ad9-a033-f883ae8ef09f",
+    "name": "serial-number",
+    "specification_group_uid": "635263d8-d612-4efa-92af-15ac8d01998a",
+    "label": {
+      "en": "Serial Number"
+    },
+    "required": false,
+    "highlighted": false,
+    "type": "Text",
+    "type_options": {},
+    "position_rank": 0,
+    "created_at": "2025-11-10T11:19:14.457Z",
+    "updated_at": "2025-11-10T11:19:14.457Z"
+  },
+  {
+    "uid": "2bd1fbb0-ec5c-4fd8-8354-011bb218ceda",
+    "name": "maximum-paper-width",
+    "specification_group_uid": "635263d8-d612-4efa-92af-15ac8d01998a",
+    "label": {
+      "en": "Maximum Paper Width"
+    },
+    "required": true,
+    "highlighted": false,
+    "type": "Numerical",
+    "type_options": {},
+    "position_rank": 0,
+    "created_at": "2025-11-10T11:19:29.272Z",
+    "updated_at": "2025-11-10T11:19:29.272Z"
+  },
+  {
+    "uid": "46e88efc-163c-4877-be4a-a4bf6bd25e51",
+    "created_at": "2025-11-10T13:20:26.649Z",
+    "updated_at": "2025-11-10T13:20:26.649Z",
+    "specification_group_uid": "cb40baf9-66a7-49ed-9977-081f05a69492",
+    "name": "number_of_pockets",
+    "label": {
+      "en": "Folding Pockets",
+      "de": "Falztaschen",
+      "es": ""
+    },
+    "internal_description": "The number of folding pockets",
+    "type": "Numerical",
+    "type_options": {
+      "min": 1,
+      "max": 16,
+      "num_type": "int"
+    },
+    "required": true,
+    "highlighted": true,
+    "position_rank": 0
+  },
+  {
+    "uid": "af511136-994d-4fb4-8857-17b06d7cee20",
+    "created_at": "2025-11-10T14:07:35.038Z",
+    "updated_at": "2025-11-10T14:07:35.038Z",
+    "specification_group_uid": "cb40baf9-66a7-49ed-9977-081f05a69492",
+    "name": "Pocket Adjusment",
+    "label": {
+      "en": "Pocket Adjustment",
+      "de": "Tascheneinstellung",
+      "es": ""
+    },
+    "internal_description": "Wie die Taschen verstellt werden, autom oder manuell",
+    "type": "Enum",
+    "type_options": {
+      "allow_multiple": false,
+      "hide_name": false
+    },
+    "required": true,
+    "highlighted": false,
+    "position_rank": 0
+  },
+  {
+    "uid": "de37d515-e3e0-48b7-a786-f2cdec449a92",
+    "created_at": "2025-11-10T14:08:57.045Z",
+    "updated_at": "2025-11-10T14:08:57.045Z",
+    "specification_group_uid": "cb40baf9-66a7-49ed-9977-081f05a69492",
+    "name": "Rollers Adjustment",
+    "label": {
+      "en": "Rollers Adjustment",
+      "de": "Walzeneinstellung",
+      "es": ""
+    },
+    "internal_description": "Wie die Walzen eingestellt werden, manuell oder automatisch",
+    "type": "Enum",
+    "type_options": {
+      "allow_multiple": false,
+      "hide_name": false
+    },
+    "required": false,
+    "highlighted": false,
+    "position_rank": 0
+  },
+  {
+    "uid": "6b4915b4-cc6b-4a8c-bc8b-ebe35026a7f7",
+    "created_at": "2025-11-10T14:10:22.915Z",
+    "updated_at": "2025-11-10T16:19:28.445Z",
+    "specification_group_uid": "cb40baf9-66a7-49ed-9977-081f05a69492",
+    "name": "Knife Shaft",
+    "label": {
+      "en": "Knife Shaft",
+      "de": "Messerwellen-Kassette",
+      "es": ""
+    },
+    "internal_description": "Die Walzen am Ausgang des Falzwerks auf die man Perforations- und Schneidemesser anbringen kann",
+    "type": "Enum Plus",
+    "type_options": {
+      "allow_multiple": false,
+      "hide_name": false
+    },
+    "required": true,
+    "highlighted": false,
+    "position_rank": 0
+  },
+  {
+    "uid": "544f66cb-e7be-48b6-a64d-37b7a84da042",
+    "created_at": "2025-11-10T14:11:27.370Z",
+    "updated_at": "2025-11-10T14:11:27.370Z",
+    "specification_group_uid": "cb40baf9-66a7-49ed-9977-081f05a69492",
+    "name": "Pneumatic Altar Fold Pocket",
+    "label": {
+      "en": "Pneumatic Altar Fold Pocket",
+      "de": "Pneumatische Fensterfalztasche",
+      "es": ""
+    },
+    "internal_description": "Eine spezielle pneumatisch automatisch gesteuerte Falztasche, die man benötigt um Altarfalz (Fensterfalz) zu machen. Ohne geht es nicht.",
+    "type": "Boolean Plus",
+    "type_options": {},
+    "required": false,
+    "highlighted": true,
+    "position_rank": 0
+  },
+  {
+    "uid": "798a6d7f-7edd-4682-b866-de6f08b47792",
+    "created_at": "2025-11-10T14:30:21.521Z",
+    "updated_at": "2025-11-10T14:30:21.521Z",
+    "specification_group_uid": "635263d8-d612-4efa-92af-15ac8d01998a",
+    "name": "High Performance Kit for Feeder (Heidelberg)",
+    "label": {
+      "en": "High Performance Kit",
+      "de": "High Performance Kit",
+      "es": ""
+    },
+    "internal_description": "Eine Reihe von Zusatzvorrichtungen, die die Performance erhöhen. Bei Heidelberg heisst es hierzu:\nHöhere Geschwindigkeiten sowie große Papierbögen stellen den Buchbinder immer wieder vor eine neue Herausforderung. Der Bogen soll auch jetzt schnell und geradlinig transportiert werden. Sie können Ihre Heidelberg Stahlfolder mit den Heidelberg High Performance Kits nachrüsten. Dadurch werden die Papierbogen schnell und geradlinig und somit sicher und mit gleichbleibender Qualität transportiert. High Performance Kit für Flachstapelanleger • Beinhaltet Vorderbläser auf ganzer Breite, Doppelsaugräder für Arbeitsbreiten 66 und 82 Zentimeter – Minimalformat Bogen 20×18 Zentimeter. High Performance Kit für Rundstapelanleger • Beinhaltet zusätzliches zweites Transportband für Ladetisch, Doppelsaugräder mit 2-Loch-Reihen für Arbeitsbreiten 66–82 Zentimeter, hochschwenkbare Grußrollen, kleine Belastungsrollen für Querformate – Minimalformat Bogen 20×18 Zentimeter. High Performance Kit für Palettenanleger • Beinhaltet Doppelsaugräder, Drehbläser auf Antriebsseite – Minimalformat Bogen 20×18 Zentimeter bei Arbeitsbreite 82 Zentimeter leistungsstärkerer Druckvakuumerzeuger.\n",
+    "type": "Boolean Plus",
+    "type_options": {},
+    "required": false,
+    "highlighted": true,
+    "position_rank": 0
+  },
+  {
+    "uid": "f0050dd9-086c-4bc7-8239-896a9e8545ce",
+    "created_at": "2025-11-10T16:22:39.802Z",
+    "updated_at": "2025-11-10T16:22:39.802Z",
+    "specification_group_uid": "487dc6b8-02d3-4e1b-9cd9-c4360326e6cd",
+    "name": "Pneumatic Double Diverter",
+    "label": {
+      "en": "Pneumatic Double Diverter",
+      "de": "Pneumatische Doppelstromweiche",
+      "es": ""
+    },
+    "internal_description": "Heidelberg spzefisch. : nimmt aus dem 1 Falzwerk zwei signaturen und lässt ei parallel NEBENEINANder indas naechste Falzwerk alfuen, dadurch muss die 2 station nicht uaf fovlle geschwindigkeit kaufen, bisher musste sie sehr shcnell laufen weil bogen quer i ndie maschien riengeht aber laengst in das um 90 grad gedrehte zwetie falzwerk. ab zweiten werk mit Doppelstromweiche oder ohne ppneu",
+    "type": "Boolean Plus",
+    "type_options": {},
+    "required": false,
+    "highlighted": true,
+    "position_rank": 0
+  }
+]

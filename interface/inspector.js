@@ -5,6 +5,7 @@ class TaxonomyInspector {
         this.categories = [];
         this.specGroups = [];
         this.specifications = [];
+        this.enumOptions = [];
         this.expandedNodes = new Set();
         this.collapsedNodes = new Set();
         this.init();
@@ -35,7 +36,7 @@ class TaxonomyInspector {
 
     async loadData() {
         try {
-            const [categories, specGroups, specifications] = await Promise.all([
+            const [categories, specGroups, specifications, enumOptions] = await Promise.all([
                 fetch('/data/categories.json').then(r => {
                     if (!r.ok) throw new Error(`Failed to fetch categories: ${r.status}`);
                     return r.json();
@@ -47,17 +48,23 @@ class TaxonomyInspector {
                 fetch('/data/specifications.json').then(r => {
                     if (!r.ok) throw new Error(`Failed to fetch specifications: ${r.status}`);
                     return r.json();
-                })
+                }),
+                fetch('/data/enum-options.json').then(r => {
+                    if (!r.ok) throw new Error(`Failed to fetch enum options: ${r.status}`);
+                    return r.json();
+                }).catch(() => []) // Enum options are optional
             ]);
 
             this.categories = categories || [];
             this.specGroups = specGroups || [];
             this.specifications = specifications || [];
+            this.enumOptions = enumOptions || [];
 
             console.log('Loaded data:', {
                 categories: this.categories.length,
                 specGroups: this.specGroups.length,
-                specifications: this.specifications.length
+                specifications: this.specifications.length,
+                enumOptions: this.enumOptions.length
             });
         } catch (error) {
             console.error('Failed to load taxonomy data:', error);
@@ -218,15 +225,94 @@ class TaxonomyInspector {
                 <div class="node-children ${isExpanded ? '' : 'collapsed'}">
         `;
 
-        groupSpecs.forEach(spec => {
-            html += this.renderSpecification(spec, depth + 1);
-        });
+        if (totalSpecs > 0) {
+            html += this.renderSpecificationsTable(groupSpecs);
+        }
 
         html += `
                 </div>
             </div>
         `;
 
+        return html;
+    }
+
+    renderSpecificationsTable(specs) {
+        let html = `
+            <div class="specs-table-container">
+                <table class="specs-table">
+                    <thead>
+                        <tr>
+                            <th>Label</th>
+                            <th>Type</th>
+                            <th>Required</th>
+                            <th>Highlighted</th>
+                            <th>Rank</th>
+                            <th>Type Options</th>
+                            <th>Description</th>
+                            <th>RegExp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        `;
+
+        specs.forEach(spec => {
+            // Check if this is an enum type
+            const isEnum = spec.type === 'Enum' || spec.type === 'Enum Plus';
+            const specEnumOptions = isEnum
+                ? this.enumOptions.filter(e => e.specification_uid === spec.uid)
+                : [];
+
+            html += `
+                <tr>
+                    <td class="label-cell">${this.getLabel(spec.label)}</td>
+                    <td class="type-cell">
+                        ${isEnum ? this.renderEnumDropdown(spec, specEnumOptions) : spec.type}
+                    </td>
+                    <td class="center-cell">
+                        ${spec.required ? '<span class="badge required">Yes</span>' : '<span class="badge optional">No</span>'}
+                    </td>
+                    <td class="center-cell">
+                        ${spec.highlighted ? '<span class="badge highlighted">Yes</span>' : '<span class="badge">No</span>'}
+                    </td>
+                    <td class="center-cell">${spec.position_rank ?? '-'}</td>
+                    <td class="json-cell">
+                        ${spec.type_options && Object.keys(spec.type_options).length > 0
+                            ? `<code>${JSON.stringify(spec.type_options)}</code>`
+                            : '-'}
+                    </td>
+                    <td class="desc-cell">${spec.internal_description || '-'}</td>
+                    <td class="json-cell">
+                        ${spec.regexp_pattern ? `<code>${spec.regexp_pattern}</code>` : '-'}
+                    </td>
+                </tr>
+            `;
+        });
+
+        html += `
+                    </tbody>
+                </table>
+            </div>
+        `;
+
+        return html;
+    }
+
+    renderEnumDropdown(spec, enumOptions) {
+        if (enumOptions.length === 0) {
+            return '<span class="no-enums">No options defined</span>';
+        }
+
+        let html = `<select class="enum-dropdown"  >`;
+        html += `<option value="">Select option (${enumOptions.length})</option>`;
+
+        enumOptions.forEach(enumOption => {
+            const label = this.getLabel(enumOption.label);
+            const highlightedMark = enumOption.highlighted ? ' ⭐' : '';
+            html += `<option value="${enumOption.uid}">${label}${highlightedMark}</option>`;
+        });
+
+        html += `</select>`;
         return html;
     }
 

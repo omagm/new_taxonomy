@@ -47,7 +47,7 @@ export const specificationTools = {
         },
         position_rank: { type: 'number', default: 0 },
       },
-      required: ['name', 'specification_group_uid', 'label', 'type', 'type_options'],
+      required: ['name', 'specification_group_uid', 'label', 'internal_description', 'type', 'type_options'],
     },
     handler: async (input: unknown) => {
       const validated = CreateSpecificationInputSchema.parse(input);

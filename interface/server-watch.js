@@ -37,7 +37,8 @@ const server = http.createServer((req, res) => {
         return;
     }
 
-    let filePath = req.url === '/' ? '/index.html' : req.url;
+    let filePath = req.url === '/' ? '/index.html' :
+                   req.url === '/enums' ? '/enums.html' : req.url;
 
     console.log('Request:', req.url);
 

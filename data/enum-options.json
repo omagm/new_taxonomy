@@ -1,1 +1,125 @@
-[]
+[
+  {
+    "uid": "af58e269-4920-418c-8aa2-6160c35055ef",
+    "name": "pile-feeder",
+    "specification_uid": "14386ba7-0664-412b-93b5-d41822346f97",
+    "label": {
+      "en": "Pile Feeder"
+    },
+    "manufacturers_using": [],
+    "created_at": "2025-11-10T11:18:21.089Z",
+    "updated_at": "2025-11-10T11:18:21.089Z"
+  },
+  {
+    "uid": "dc7fd678-beb4-4729-936c-664b8d4fd46f",
+    "name": "pallet-feeder",
+    "specification_uid": "14386ba7-0664-412b-93b5-d41822346f97",
+    "label": {
+      "en": "Pallet Feeder"
+    },
+    "manufacturers_using": [],
+    "created_at": "2025-11-10T11:18:30.893Z",
+    "updated_at": "2025-11-10T11:18:30.893Z"
+  },
+  {
+    "uid": "3379fc05-71f0-4c32-a64e-80ab90d1c074",
+    "name": "round-pile-feeder",
+    "specification_uid": "14386ba7-0664-412b-93b5-d41822346f97",
+    "label": {
+      "en": "Round Pile Feeder"
+    },
+    "manufacturers_using": [],
+    "created_at": "2025-11-10T11:18:39.520Z",
+    "updated_at": "2025-11-10T11:18:39.520Z"
+  },
+  {
+    "uid": "3be16cda-3dd6-4fe4-bc04-aaa07de20112",
+    "created_at": "2025-11-10T14:07:53.425Z",
+    "updated_at": "2025-11-10T14:07:53.425Z",
+    "specification_uid": "af511136-994d-4fb4-8857-17b06d7cee20",
+    "name": "Automatic",
+    "label": {
+      "en": "Automatic",
+      "de": "Automatisch",
+      "es": ""
+    },
+    "manufacturers_using": [],
+    "highlighted": false,
+    "internal_description": ""
+  },
+  {
+    "uid": "7172a8aa-86ae-4da2-a1ef-8e23534ff0b1",
+    "created_at": "2025-11-10T14:08:01.041Z",
+    "updated_at": "2025-11-10T14:08:01.041Z",
+    "specification_uid": "af511136-994d-4fb4-8857-17b06d7cee20",
+    "name": "Manual",
+    "label": {
+      "en": "Manual",
+      "de": "Manuell",
+      "es": ""
+    },
+    "manufacturers_using": [],
+    "highlighted": false,
+    "internal_description": ""
+  },
+  {
+    "uid": "15a831d2-215d-427e-89a0-17a2f8bdf324",
+    "created_at": "2025-11-10T14:09:06.628Z",
+    "updated_at": "2025-11-10T14:09:06.628Z",
+    "specification_uid": "de37d515-e3e0-48b7-a786-f2cdec449a92",
+    "name": "Manual",
+    "label": {
+      "en": "Manual",
+      "de": "Manuell",
+      "es": ""
+    },
+    "manufacturers_using": [],
+    "highlighted": false,
+    "internal_description": ""
+  },
+  {
+    "uid": "b0426737-1c08-4764-95f0-9329d4208433",
+    "created_at": "2025-11-10T14:09:16.111Z",
+    "updated_at": "2025-11-10T14:09:16.111Z",
+    "specification_uid": "de37d515-e3e0-48b7-a786-f2cdec449a92",
+    "name": "Automatic",
+    "label": {
+      "en": "Automatic",
+      "de": "Automatisch",
+      "es": ""
+    },
+    "manufacturers_using": [],
+    "highlighted": false,
+    "internal_description": ""
+  },
+  {
+    "uid": "60e11377-da59-402c-b293-370c3f0a0903",
+    "created_at": "2025-11-10T16:20:03.695Z",
+    "updated_at": "2025-11-10T16:20:03.695Z",
+    "specification_uid": "6b4915b4-cc6b-4a8c-bc8b-ebe35026a7f7",
+    "name": "Up Stream (vorgelagert)",
+    "label": {
+      "en": "up stream",
+      "de": "vorgelagert",
+      "es": ""
+    },
+    "manufacturers_using": [],
+    "highlighted": false,
+    "internal_description": ""
+  },
+  {
+    "uid": "4ae33ddf-1d50-447a-b1ef-b2a715d2a304",
+    "created_at": "2025-11-10T16:20:20.346Z",
+    "updated_at": "2025-11-10T16:20:20.346Z",
+    "specification_uid": "6b4915b4-cc6b-4a8c-bc8b-ebe35026a7f7",
+    "name": "Down Stream (nachgelagert)",
+    "label": {
+      "en": "down steram",
+      "de": "nachgelagert",
+      "es": ""
+    },
+    "manufacturers_using": [],
+    "highlighted": false,
+    "internal_description": ""
+  }
+]

@@ -1,3 +1,69 @@
+- [1. Intro](#1-intro)
+  - [Executive Summary](#executive-summary)
+    - [Core Concept](#core-concept)
+  - [Motivation](#motivation)
+- [2. Terminology](#2-terminology)
+- [3. Relations](#3-relations)
+  - [Core Structure Relations:](#core-structure-relations)
+  - [Specification Preset Relations:](#specification-preset-relations)
+  - [Machine \& Instance Relations:](#machine--instance-relations)
+  - [Example:](#example)
+- [4. Category](#4-category)
+  - [Data Model](#data-model)
+  - [Relations:](#relations)
+- [5. Specification Group](#5-specification-group)
+  - [Data Model](#data-model-1)
+  - [Relations:](#relations-1)
+- [6. Specification](#6-specification)
+  - [Data Model](#data-model-2)
+  - [Relations:](#relations-2)
+  - [The different Specification Types](#the-different-specification-types)
+  - [Note](#note)
+- [7. EnumOptions](#7-enumoptions)
+  - [Data Model](#data-model-3)
+- [8. Machine Model](#8-machine-model)
+  - [Data Model](#data-model-4)
+  - [Relations:](#relations-3)
+  - [Note](#note-1)
+- [9. Specification Preset](#9-specification-preset)
+  - [Data Model](#data-model-5)
+  - [Allowed Values Structure:](#allowed-values-structure)
+  - [Relations:](#relations-4)
+  - [Constraints:](#constraints)
+  - [Preset Levels:](#preset-levels)
+    - [Category-Level Preset](#category-level-preset)
+    - [Model-Level Preset](#model-level-preset)
+  - [Precedence Rules:](#precedence-rules)
+- [10. Machine](#10-machine)
+  - [Data Model](#data-model-6)
+  - [Relations:](#relations-5)
+  - [Notes:](#notes)
+- [11. Machine Models Instances](#11-machine-models-instances)
+  - [Data Model](#data-model-7)
+  - [Relations:](#relations-6)
+  - [Constraints:](#constraints-1)
+  - [Identifying Primary vs Secondary:](#identifying-primary-vs-secondary)
+  - [Purpose:](#purpose)
+  - [Example:](#example-1)
+- [12. Machine Specification Values](#12-machine-specification-values)
+  - [Data Model](#data-model-8)
+  - [Relations:](#relations-7)
+  - [Primary Key:](#primary-key)
+  - [Value Structure Examples:](#value-structure-examples)
+    - [Text Type:](#text-type)
+    - [Boolean Plus Type:](#boolean-plus-type)
+    - [Enum Type (single):](#enum-type-single)
+    - [Enum Plus Type (single):](#enum-plus-type-single)
+    - [Enum Type (single):](#enum-type-single-1)
+    - [Enum Plus Type (multiple):](#enum-plus-type-multiple)
+    - [Numerical Type:](#numerical-type)
+    - [Numerical Range Type (from/to):](#numerical-range-type-fromto)
+    - [Numerical Range Type (2D):](#numerical-range-type-2d)
+    - [Numerical Range Type (3D):](#numerical-range-type-3d)
+  - [Notes:](#notes-1)
+  - [Rationale behind using this combination of relational and JSONB storage:](#rationale-behind-using-this-combination-of-relational-and-jsonb-storage)
+- [Changes:](#changes)
+
 
 # 1. Intro
 
@@ -261,6 +327,7 @@ we might want to add a flag disabled, so that when we delete a spec the old mach
 - **Description:** Multilingual description object
 - **Manufacturers Using This EnumOption:** List of manufacturer UIDs using this EnumOption (if empty, it means all manufacturers can use it)
 - **Specification UID:** The UID of the Specification this EnumOption belongs to
+- **highlighted:** Boolean, whether this enum option is to be highlighted in preview of machine if it is selected
 
 # 8. Machine Model
 ## Data Model
@@ -587,3 +654,4 @@ Relational structure tracks model ownership (primary vs secondary), enforces ref
 - Added **Alternative Parent Category** and **Alternative Position Rank** fields to Category data model. This allows categories to appear in another part of the category tree as a link, with its own position ranking.
 - Added **Is Meta Category** boolean field to Category data model to indicate non-rendered grouping categories. Purpose is grouping sub-categories which have overlap of spec groups. A Model can not be assigned to a meta category.
 - Added Specification Type Enum (without Boolean) as some Specs can not have the value Yes/No in addition to an enum value, but only enum values.
+- Added **highlighted** boolean field to EnumOptions data model to indicate whether this enum option is to be highlighted in preview of machine if it is selected. (e.g. when an option is very rare and special)

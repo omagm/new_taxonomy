@@ -4,6 +4,8 @@ This repository contains the code and data for the New Specs project, which aims
 
 ## Overview
 
+Start first by reading the [taxonomy description](./taxonomy_description.md) to understand the concepts and ideas behind this project.
+
 ```/app``` contains the MCP server to manage data. It can be connected to Claude Desktop or others to manage the tree via chat.
 
 ```/schemas``` contains the schema definitions for the data models used in the MCP server. 
@@ -16,4 +18,4 @@ This repository contains the code and data for the New Specs project, which aims
 
 Run ``npm install`` to install dependencies.
 
-Run ``npm run start`` to start the MCP server and the web app, both locally.
+Run ``npm run start`` to start the MCP server and the web app, both locally. 

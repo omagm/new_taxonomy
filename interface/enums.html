@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enum Options Inspector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Enum Options Inspector</h1>
+            <div class="controls">
+                <div class="control-group">
+                    <a href="/" class="nav-link">← Back to Taxonomy</a>
+                </div>
+                <div class="control-group">
+                    <button id="expandAll">Expand All</button>
+                    <button id="collapseAll">Collapse All</button>
+                    <button id="reload">Reload Data</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="enum-container">
+                <div id="loading">Loading enum options data...</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="enums.js"></script>
+</body>
+</html>
